@@ -6,9 +6,10 @@ package com.company;
 
 public class LuckyNumberGenerator {
     public int LuckyNumber;
-    public int luck = (int)(Math.random()*46341);
+    public int luck;
 
     public LuckyNumberGenerator() {
+        luck = (int)(Math.random()*46341);
     }
 
     public int perfectRandom() {
