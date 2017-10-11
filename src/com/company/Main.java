@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        for(int j = 0; j <= 1; j += 0) {
+        for(int j = 0; j <= 5; j += 0) {
             Scanner input = new Scanner(System.in);
             System.out.println("What is your name?");
             String name = input.nextLine();
